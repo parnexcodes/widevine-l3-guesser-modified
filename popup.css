@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: "Consolas",sans-serif;
+}
+
+#main {
+    width: 320px;
+    height: 300px;
+    background-color:#FFFFFF;
+    color:#0067C4;
+    padding: 5px;
+}
+
+#nd_wv_title {
+    text-align: center;
+    font-size: large;
+}
+
+#nd_wv_keys {
+    color: #34495e;
+    overflow-y: scroll;
+    height: 235px;
+}
+
+input {
+    font-family: "Consolas",sans-serif;
+    display: inline-block;
+    font-size: small;
+    border: 1px solid #000;
+    color:#34495e;
+    width: 245px;
+}
+
+span {
+    width: 50px;
+    display: inline-block;
+    color:#34495e;
+}
+
+#line {
+    margin: 5px 0;
+}
+
+#bottom {
+    bottom: 2px;
+    position: absolute;
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: #ecf0f1;
+    color: #0067C4;
+    height: 22px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
